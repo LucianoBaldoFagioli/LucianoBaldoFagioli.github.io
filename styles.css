@@ -1,5 +1,67 @@
+html {
+    box-sizing: border-box;
+}
+
 body {
+    background: linear-gradient(145deg, rgba(253, 106, 228, 0.25), rgba(22, 22, 11, 1), rgba(105, 27, 169, 0.45));
     background-color: #222211;
-    color: #efe;
+    color: white;
     font-family: Verdana;
+}
+
+.content {
+    background-color: #060606;
+    width: 80%;
+    margin: 15px auto;
+    padding: 10px 60px;
+    border-radius: 5px;
+}
+
+.content:hover {
+    background-color: #111111;
+}
+
+#name {
+    text-align: center;
+    padding: 50px 0;
+    font-size: 50px;
+}
+
+p {
+    padding: 0 10%;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    background-color: #333;
+}
+
+#myself {
+    font-family: 'serif';
+}
+
+table {
+    margin: 0 auto;
+    border: solid #444 2px;
+    width: 50%;
+    font-family: sans-serif;
+}
+
+.even {
+    background-color: #222;
+}
+
+.odd {
+    background-color: #333;
+}
+
+#change {
+    margin-bottom: 100px;
+}
+
+#holder {
+    text-align: center;
 }
