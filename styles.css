@@ -11,10 +11,10 @@ body {
 
 .content {
     background-color: #060606;
-    width: 80%;
     margin: 15px auto;
     padding: 10px 60px;
     border-radius: 5px;
+    width: 80%;
 }
 
 .content:hover {
@@ -64,4 +64,25 @@ table {
 
 #holder {
     text-align: center;
+}
+
+#mytext {
+    background-color: #ddd;
+    border-radius: 4px;
+}
+
+#submit-button {
+    background-color: #333;
+    color: white;
+    border: solid black 2px;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+#submit-button:hover {
+    background-color: #444;
+}
+
+#submit-button:active {
+    background-color: #555;
 }
