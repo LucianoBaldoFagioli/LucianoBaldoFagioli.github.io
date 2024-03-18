@@ -4,83 +4,130 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lab 1 personal page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <ul class="nav nav-pills nav-fill justify-content-center position-fixed w-100 bg-dark">
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#name">Header</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#myself">About me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#table">Table</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#change">Game</a>
+        </li>
+      </ul>
     <h1 id="name">Luciano Fagioli</h1>
-    <div class="content">
-        <h2>Professional information</h2>
-        <p><i>Software Engineering student</i></p>
-        <p>Going through 4th year</p>
-        <p>Github Profile: <a href="https://github.com/LucianoBaldoFagioli" target="_blank">https://github.com/LucianoBaldoFagioli</a></p>
-    </div>
-    <div id="myself" class="content">
-        <h2>About myself</h2>
-        <p>I like to spend time learning new stuff</p>
-        <p>League of Legends player</p>
-        <p>Enthusiast traveler</p>
-        <p>I've had a lot of different jobs</p>
-    </div>
-    <div class="content">
-        <h2>Table of skills</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Skill</th>
-                    <th>Level</th>
-                </tr>
-            </thead>
-            <tr class="odd">
-                <td>HTML</td>
-                <td>Intermediate</td>
-            </tr>
-            <tr class="even">
-                <td>CSS</td>
-                <td>Basic</td>
-            </tr>
-            <tr class="odd">
-                <td>JavaScript</td>
-                <td>Basic</td>
-            </tr>
-            <tr class="even">
-                <td>Python</td>
-                <td>Intermediate</td>
-            </tr>
-            <tr class="odd">
-                <td>SQL</td>
-                <td>Advanced</td>
-            </tr>
-            <tr class="even">
-                <td>C / C++</td>
-                <td>Intermediate</td>
-            </tr>
-            <tr class="odd">
-                <td>Excel</td>
-                <td>Intermediate</td>
-            </tr>
-            <tr class="even">
-                <td>English</td>
-                <td>Advanced</td>
-            </tr>
-            <tr class="odd">
-                <td>Portuguese</td>
-                <td>Intermediate</td>
-            </tr>
-            <tr class="even">
-                <td>Spanish</td>
-                <td>Native</td>
-            </tr>
-        </table>
-    </div>
-    <div id="change" class="content">
-        <h2>Change the background-color of this section!</h2>   
-        <p>Introduce a valid value for the background-color property of this section, this could be a word, hexadecimal number, even rgb function declaration, etc</p>
-        <div id="holder">            
-            <input id="mytext" type="text" placeholder="e.g. #555">
-            <button id="submit-button">Submit</button>
+
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="spinner-border text-primary col-1" role="status"></div>
+            <div class="spinner-border text-secondary col-1" role="status"></div>
+            <div class="spinner-border text-success col-1" role="status"></div>
+            <div class="spinner-border text-danger col-1" role="status"></div>
+            <div class="spinner-border text-warning col-1" role="status"></div>
+            <div class="spinner-border text-info col-1" role="status"></div>
+            <div class="spinner-border text-light col-1" role="status"></div>
+            <div class="spinner-border text-dark col-1" role="status"></div>
         </div>
     </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="content col-5">
+                <h2>Professional information</h2>
+                <p><i>Software Engineering student</i></p>
+                <p>Going through 4th year</p>
+                <p>Github Profile: <a href="https://github.com/LucianoBaldoFagioli" target="_blank">https://github.com/LucianoBaldoFagioli</a></p>
+            </div>
+            <div id="myself" class="content col-5">
+                <h2>About myself</h2>
+                <p>I like to spend time learning new stuff</p>
+                <p>League of Legends player</p>
+                <p>Enthusiast traveler</p>
+                <p>I've had a lot of different jobs</p>
+            </div>
+        </div>
+        <div class="row">
+            <div id="table" class="content col-11">
+                <h2>Table of skills</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Skill</th>
+                            <th>Level</th>
+                        </tr>
+                    </thead>
+                    <tr class="odd">
+                        <td>HTML</td>
+                        <td>Intermediate</td>
+                    </tr>
+                    <tr class="even">
+                        <td>CSS</td>
+                        <td>Basic</td>
+                    </tr>
+                    <tr class="odd">
+                        <td>JavaScript</td>
+                        <td>Basic</td>
+                    </tr>
+                    <tr class="even">
+                        <td>Python</td>
+                        <td>Intermediate</td>
+                    </tr>
+                    <tr class="odd">
+                        <td>SQL</td>
+                        <td>Advanced</td>
+                    </tr>
+                    <tr class="even">
+                        <td>C / C++</td>
+                        <td>Intermediate</td>
+                    </tr>
+                    <tr class="odd">
+                        <td>Excel</td>
+                        <td>Intermediate</td>
+                    </tr>
+                    <tr class="even">
+                        <td>English</td>
+                        <td>Advanced</td>
+                    </tr>
+                    <tr class="odd">
+                        <td>Portuguese</td>
+                        <td>Intermediate</td>
+                    </tr>
+                    <tr class="even">
+                        <td>Spanish</td>
+                        <td>Native</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div id="change" class="content col-11">
+                <h2>Change the background-color of this section!</h2>   
+                <p>Introduce a valid value for the background-color property of this section, this could be a word, hexadecimal number, even rgb function declaration, etc</p>
+                <div id="holder">            
+                    <input id="mytext" class="form-control" type="text" placeholder="e.g. #555">
+                    <button id="submit-button">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- lab 2 -->
+    <div class="card bg-transparent text-white mx-auto" style="width: 18rem;">
+        <img src="b.png" class="card-img-top" alt="bootstrap image">
+        <div class="card-body">
+          <h5 class="card-title">Lets talk about Bootstrap</h5>
+          <p class="card-text">Bootstrap is an amazing framework for CSS built initially by twitter as they got tired of writting so much CSS code.</p>
+          <a href="https://getbootstrap.com/" class="btn btn-secondary" target="_blank">Get Bootstrap!</a>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="jvs.js"></script> 
 </body>
 </html>
